@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns= "http://www.w3.org/1999/xhtml"
+	xmlns:th= "http://www.thymeleaf.org">
+<head>
+  <!-- Site made with Mobirise Website Builder v4.11.4, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/pass-485x80.png" type="image/x-icon">
+  <meta name="description" content="Nesta página o usuário deverá inserir o código enviado para o seu e-mail, e ativar sua conta.">
+
+<!-- ajax -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+<!-- ******* -->
+
+  <title>TicketPass</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.min.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/uploadimage/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/uploadimage/eventoValidacao.js">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+
+  <!-- jQuery -->
+ 		
+
+<div th:replace="header :: headerBlock"></div>
+
+</head>
+<body>
+
+<div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+    <input name="animation" type="hidden">
+<!--Inicio do formulário-->
+
+<div th:replace="header :: navBar"></div>
+
+
+<section class="mbr-section form1 cid-rHENz2I6PJ" id="form1-10" style="background-color: #CCCCCC; font-family: 'Questrial', sans-serif;">
+<div class="container">
+
+<div class="container">
+<div class="form-group">
+	<h3 style="margin-left: 0%">
+		<strong>PERGUNTAS FREQUENTES</strong>
+	</h3>
+	<br>
+   
+</div>
+</div>
+
+<div class="container">
+<div class="form-group">
+  <h3 style="margin-left: 0%">
+  	<strong>1 - O que é o TicketPass?</strong>
+  </h3>
+  <p  style="margin-left: 0%">é um site para compra e venda de ingressos que facilita a vida de muita gente que não tem tempo, além de poder publicar eventos</p>
+  <br>
+</div>
+
+
+<div class="container">
+  <div class="form-group">
+  <h3 style="margin-left: 0%">
+  	<strong> 2 - Quem pode publicar eventos?</strong>
+  </h3>
+    <p  style="margin-left: 0%">Pessoas que trabalhem com eventos como produtores entre outros e pessoas que trabalhem com eventos beneficiente</p>
+   <!-- <textarea class="form-control"  rows="10" name="desc_evento" id="desc_evento" th:field="*{desc_evento}" required></textarea>-->
+</div>
+</div>
+
+
+<div class="container">
+<div class="form-group">
+	<h3 style="margin-left: 0%">
+    <strong>3 - Perdi meu ingresso, como faço para acessar o evento? </strong>
+  </h3>
+  <p  style="margin-left: 0%">Não terá problemas, pois assim que o pagamento for efetuado você receberá o ingresso no seu email, podendo imprimir ele a qualquer momento.</p>
+	
+</div>
+</div>
+
+<div class="container">
+<div class="form-group">
+	<h3 style="margin-left: 0%">
+    <strong> 4 - Preciso criar um evento, porém não quero que esse evento seja pago, posso fazer isso? </strong>
+  </h3>
+  <p  style="margin-left: 0%">Poderá sim, na hora que estiver criando o evento, só selecionar a opção de evento gratuito.</p>
+  
+</div>   
+</div>
+
+
+<div class="container">
+  <div class="form-group">
+  <h3 style="margin-left: 0%">
+    <strong> 5 - Posso comprar e criar eventos usando a mesma conta de email??</strong>
+  </h3>
+    <p  style="margin-left: 0%">Sim, está disponivel tanto a publicação quanto a compra de algum ingresso.</p>
+   
+</div>
+</div>
+
+
+<div class="container">
+  <div class="form-group">
+  <h3 style="margin-left: 0%">
+    <strong> Ainda tem duvidas ou problemas? Entre em contato com a gente. Só deixar sua mensagem abaixo!</strong>
+  </h3>
+    <label>Email:</label>
+  <input type="email" name="nomeOrganizador"  id="nomeOrganizador" class="form-control"  required style="width: 50%">
+  <br>
+  <label>Assunto:</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" name="desc_org" rows="5"  required></textarea><br>
+   
+</div>
+</div>
+
+
+<button type="submit" class="btn btn-primary btn-sm" >Enviar</button>
+</div>
+</form>
+</div>
+
+</section>
+
+<!-- Footer -->
+<section class="cid-rHERilnReB" id="footer1-16">
+    <div class="container">
+        <div class="media-container-row content text-white">
+            <div class="col-12 col-md-3">
+                <div class="media-wrap">
+                    <a href="https://mobirise.co/">
+                        <img src="assets/images/asts-1-206x1924.png" alt="Mobirise" title="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 mbr-fonts-style display-7">
+                <h5 class="pb-3">Endereço</h5>
+                <p class="mbr-text">Rua da Lama, 555<br>Recife-Pernambuco</p>
+            </div>
+            <div class="col-12 col-md-3 mbr-fonts-style display-7">
+                <h5 class="pb-3">Contato</h5>
+                <p class="mbr-text">
+                    Email: ticketpasssuport@gmail.com&nbsp;<br>Telefone: (81) 3022-1019&nbsp;<br>Celular: &nbsp;(81) 98765-6222</p>
+            </div>
+            <div class="col-12 col-md-3 mbr-fonts-style display-7">
+                <h5 class="pb-3">
+                    Sobre Nós
+                </h5>
+                <p class="mbr-text">
+                    <a class="text-primary" href="/quemSomos">Quem Somos</a>
+                </p>
+            </div>
+        </div>
+        <div class="footer-lower">
+            <div class="media-container-row">
+                <div class="col-sm-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="media-container-row mbr-white">
+                <div class="col-sm-6 copyright">
+                    <p class="mbr-text mbr-fonts-style display-7">
+                        © Copyright 2019 TicketPass - Todos dos direitos reservados</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-list align-right">
+                        <div class="soc-item">
+                            <a href="https://twitter.com/mobirise" target="_blank">
+                                <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                            </a>
+                        </div>
+                        <div class="soc-item">
+                            <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
+                                <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                            </a>
+                        </div>
+                        <div class="soc-item">
+                            <a href="https://www.youtube.com/c/mobirise" target="_blank">
+                                <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                            </a>
+                        </div>
+                        <div class="soc-item">
+                            <a href="https://instagram.com/mobirise" target="_blank">
+                                <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                            </a>
+                        </div>
+                        <div class="soc-item">
+                            <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
+                                <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
+                            </a>
+                        </div>
+                        <div class="soc-item">
+                            <a href="https://www.behance.net/Mobirise" target="_blank">
+                                <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
+  <script src="assets/dropdown/js/nav-dropdown.js"></script>
+  <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <script src="https://cdn.rawgit.com/PascaleBeier/bootstrap-validate/v2.2.0/dist/bootstrap-validate.js" ></script>
+  <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="./js/localization/messages_pt_BR.js"></script>
+  <script type="text/javascript" src="./js/validacao.js"></script>
+  <script src="https://cdn.rawgit.com/PascaleBeier/bootstrap-validate/v2.2.0/dist/bootstrap-validate.js" ></script>
+  
+    
+  
+  <input name="animation" type="hidden">
+  </body>
+</html>
